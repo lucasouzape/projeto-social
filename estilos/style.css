@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
 }
 
@@ -36,4 +36,13 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
     background: url('../imagens/frame-iphone.png') no-repeat center center;
+}
+
+iframe#tela {
+    height: 473px;
+    width: 269px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
